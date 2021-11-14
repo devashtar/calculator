@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Calculator</h1>
+        <form class="calculator">
+            <label class="label" for="field">2 / 2 * (3 ^ 2 + 1) + 10</label>
+            <input id='field' type="text" class="input" placeholder="input expression">
+            <button class="btn">calculate</button>
+        </form>
+
+        <h3 class="title" title="Output last 10 operation">History:</h3>
+        <div class="history">
+            <p class='empty'>Empty</p>
+        </div>
+    </div>
+
+
+    <script type="module" src="./calculate.js"></script>
+    
+</body>
+</html>
